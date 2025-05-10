@@ -1,0 +1,48 @@
+# === GENERAL ===
+*.log
+*.tmp
+*.swp
+*.DS_Store
+.env
+.vscode/
+.idea/
+
+# === JAVA / SPRING BOOT BACKEND ===
+backend/**/target/
+backend/**/.classpath
+backend/**/.project
+backend/**/.settings/
+backend/**/*.iml
+
+# === NODE / REACT FRONTEND ===
+frontend/**/node_modules/
+frontend/**/build/
+frontend/**/.env
+frontend/**/npm-debug.log*
+frontend/**/yarn-debug.log*
+frontend/**/yarn-error.log*
+frontend/**/package-lock.json
+frontend/**/.parcel-cache/
+
+# === OS ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === BACKEND (Spring Boot - Maven) ===
+/backend/invoice-analyzer/target/
+/backend/invoice-analyzer/src/main/resources/application.properties
+*.log
+*.class
+
+# === FRONTEND (React - Node.js) ===
+/frontend/invoice-analyzer-ui/node_modules/
+/frontend/invoice-analyzer-ui/build/
+/frontend/invoice-analyzer-ui/.env
+
+# === IDE / Sistem dosyaları ===
+.DS_Store
+*.iml
+.idea/
+.vscode/
+
